@@ -7,4 +7,4 @@ catboost_forest.ipynb - creates models based on prepared data
 
 trading_bot.ipynb - main script, that activates a trading algorithm and works until you stop it
 
-Now this project is closed for several months, because i need to check some new ideas on implementing nn in this alg and also i want to make an analysis od the latest news about the target coin to minimize the final error.
+Now this project is closed for several months, because i need to check some new ideas on implementing nn in this alg and also i want to make an analysis of the latest news about the target coin to minimize the final error.
