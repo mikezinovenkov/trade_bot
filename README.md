@@ -1,4 +1,7 @@
-# trade_bot
+# Торговый бот (Trading bot)
+
+_____________________________________________________________________________________________
+
 A trading bot, which can automatically earns money by trading crypto in binance. Works on Catboost, now i'm trying to complicate my method with the help of LSTM nn. The idea is that algorythm predicts, if there is a chance for the price of a coin to go up in the next N days, and it buys it, if so. Then it sells all when the price raises on some %.
 
 get_hours.ipynb and get_crypto_data.ipynb - files that works with the API of Binance and creates data for future models
