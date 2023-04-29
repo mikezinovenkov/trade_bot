@@ -1,4 +1,4 @@
-# Торговый бот (Trading bot)
+# Торговый бот
 
 Торговый бот, суть которого заключается в автоматической торговле разными крипто-монетами на платформе Binance. Работает с приминением метода градиентного бустинга, но в данный момент была поставлена цель усовершенствовать алгоритм, применив рекуррентные нейронные сети.
 Идея алгоритма сведена к задаче классификации. Классы следующие - 1, если в течении следующих n дней цена монеты поднимется выше заданного процента, и 0 иначе.
@@ -10,6 +10,8 @@ catboost_forest.ipynb - скрипт, создающий модель
 trading_bot.ipynb - главный скрипт, активирующий бота
 
 _____________________________________________________________________________________________
+
+# Trading bot
 
 A trading bot, which can automatically earns money by trading crypto on Binance. Works on Catboost, now i'm trying to complicate my method with the help of LSTM nn. 
 The idea is that algorythm predicts, if there is a chance for the price of a coin to go up in the next N days, and it buys it, if so. Then it sells all when the price raises on some %.
